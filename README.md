@@ -11,6 +11,10 @@ requirements: [unsplash developer api key](https://unsplash.com/developers)
 - https://unsplash.com/documentation
 - https://unsplash.com/api-terms
 
+## screenshot
+
+![](https://raw.githubusercontent.com/equk/unsplash-js-search/master/screenshot.jpg)
+
 ## why make this?
 
 The whole idea / challenge to this is to show how much you can do with vanilla javascript
