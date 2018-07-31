@@ -13,4 +13,4 @@ requirements: [unsplash developer api key](https://unsplash.com/developers)
 
 ## why make this?
 
-The whole idea / challenge to this was to show how much you can do with vanilla javascript
+The whole idea / challenge to this is to show how much you can do with vanilla javascript
