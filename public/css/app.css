@@ -190,3 +190,30 @@ img {
     top:1em;
     right:1em;
 }
+
+.ImageResult {
+    float: left;
+    position: relative;
+}
+
+.ImageResult a {
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    text-shadow: 0px 0px 5px black;
+}
+
+.view_link {
+    right: 1em;
+    top: 0.5em;
+}
+
+.user_link {
+    left: 1em;
+    bottom: 1em;
+}
+
+.images {
+    padding-bottom: 15px;
+}

@@ -30,8 +30,24 @@ function search(searchTerm) {
 
 function displayImages(images) {
   images.forEach(image => {
+    let imageContainer = document.createElement('div');
+    imageContainer.className = 'ImageResult'
+    imageSection.appendChild(imageContainer);
     let imageElement = document.createElement('img');
     imageElement.src = image.urls.regular;
-    imageSection.appendChild(imageElement);
+    imageContainer.appendChild(imageElement);
+    let imageLink = document.createElement('a');
+    imageLink.href = image.links.html;
+    imageLink.target = '_blank';
+    let imageUser = image.user.name;
+    imageLink.append('View on Unsplash');
+    imageLink.className = 'view_link';
+    imageContainer.appendChild(imageLink);
+    let creatorLink = document.createElement('a');
+    creatorLink.href = image.user.links.html;
+    creatorLink.target = '_blank';
+    creatorLink.append(`Photo by: ${imageUser}`);
+    creatorLink.className = 'user_link';
+    imageContainer.appendChild(creatorLink);
   });
 }
