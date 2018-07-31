@@ -15,6 +15,8 @@ requirements: [unsplash developer api key](https://unsplash.com/developers)
 
 The whole idea / challenge to this is to show how much you can do with vanilla javascript
 
+No frameworks or templating languages were used eg: react, jsx, handlebars.
+
 ### notes
 
 > Unsplash API Terms (Attribution)
