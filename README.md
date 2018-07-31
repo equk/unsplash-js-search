@@ -17,7 +17,7 @@ requirements: [unsplash developer api key](https://unsplash.com/developers)
 
 ## why make this?
 
-The whole idea / challenge to this is to show how much you can do with vanilla javascript
+The whole idea / challenge to this is to show how much you can do with vanilla javascript using promises & DOM manipulation.
 
 No frameworks or templating languages were used eg: react, jsx, handlebars.
 
