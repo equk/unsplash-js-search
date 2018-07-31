@@ -178,6 +178,13 @@ form {
     padding-bottom: 1em;
 }
 
+img {
+  object-fit: cover;
+  width:350px;
+  height:350px;
+  padding: 0 4px;
+}
+
 .createdby {
     position: absolute;
     top:1em;
