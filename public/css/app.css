@@ -177,3 +177,9 @@ input#searchTerm.searchBox {
 form {
     padding-bottom: 1em;
 }
+
+.createdby {
+    position: absolute;
+    top:1em;
+    right:1em;
+}
