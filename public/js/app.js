@@ -10,7 +10,13 @@ function formSubmitted(event) {
   event.preventDefault();
   let searchTerm = input.value;
 
+  searchStart();
   search(searchTerm)
+    .then(displayImages)
+}
+
+function searchStart() {
+  imageSection.innerHTML = '';
 }
 
 function search(searchTerm) {
@@ -18,6 +24,14 @@ function search(searchTerm) {
   return fetch(url)
     .then(response => response.json())
     .then(result => {
-        console.log(result.results);
+        return result.results;
     });
+}
+
+function displayImages(images) {
+  images.forEach(image => {
+    let imageElement = document.createElement('img');
+    imageElement.src = image.urls.regular;
+    imageSection.appendChild(imageElement);
+  });
 }
