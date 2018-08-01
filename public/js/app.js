@@ -32,22 +32,10 @@ function displayImages(images) {
   images.forEach(image => {
     let imageContainer = document.createElement('div');
     imageContainer.className = 'ImageResult'
+    imageContainer.innerHTML = `<img src="${image.urls.regular}">
+<a href="${image.links.html}" target="_blank" class="view_link">View on Unsplash</a>
+<a href="${user.links.html}" target="_blank" class="user_link">Photo by: ${image.user.name}</a>`;
     imageSection.appendChild(imageContainer);
-    let imageElement = document.createElement('img');
-    imageElement.src = image.urls.regular;
-    imageContainer.appendChild(imageElement);
-    let imageLink = document.createElement('a');
-    imageLink.href = image.links.html;
-    imageLink.target = '_blank';
-    let imageUser = image.user.name;
-    imageLink.append('View on Unsplash');
-    imageLink.className = 'view_link';
-    imageContainer.appendChild(imageLink);
-    let creatorLink = document.createElement('a');
-    creatorLink.href = image.user.links.html;
-    creatorLink.target = '_blank';
-    creatorLink.append(`Photo by: ${imageUser}`);
-    creatorLink.className = 'user_link';
-    imageContainer.appendChild(creatorLink);
+
   });
 }
