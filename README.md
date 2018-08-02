@@ -6,6 +6,8 @@
 
 requirements: [unsplash developer api key](https://unsplash.com/developers)
 
+more detail: [equks blog - Unsplash Javascript Search](https://equk.co.uk/2018/08/01/unsplash-javascript-search/)
+
 ## unsplash references
 
 - https://unsplash.com/documentation
