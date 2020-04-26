@@ -1,8 +1,12 @@
 # unsplash-js-search
+
 :camera: unsplash search using vanilla javascript
 
-- clientside js
-- json
+- [x] Vanilla Javascript
+- [x] DOM Manipulation
+- [x] Javascript Promises
+- [x] Json API Requests
+- [x] API Using Auth
 
 requirements: [unsplash developer api key](https://unsplash.com/developers)
 
@@ -28,3 +32,9 @@ No frameworks or templating languages were used eg: react, jsx, handlebars.
 > Unsplash API Terms (Attribution)
 >
 > Each time you or your Developer App displays a Photo, your Developer App must attribute Unsplash, the Unsplash photographer, and contain a link back to the photographer’s Unsplash profile.
+
+# Contact
+
+Website: https://equk.co.uk
+
+Twitter: [@equilibriumuk](https://twitter.com/equilibriumuk)
